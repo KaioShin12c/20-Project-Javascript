@@ -141,7 +141,7 @@ async function getJokes() {
     // text to speed
     tellMe(joke);
     // disable button
-    toggleButton()
+    toggleButton();
   } catch (error) {
     console.log(error);
   }
