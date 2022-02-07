@@ -1,0 +1,35 @@
+html {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  color: white;
+  background-color: royalblue;
+  border: none;
+  border-radius: 7px;
+}
+
+button:hover {
+  filter: brightness(95%);
+}
+button:active {
+  transform: scale(0.98);
+}
+button:disabled {
+  cursor: default;
+  filter: brightness(30%);
+}
